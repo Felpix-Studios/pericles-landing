@@ -8,9 +8,11 @@
 	--color-bg-0: rgb(202, 216, 228);
 	--color-bg-1: hsl(209, 36%, 86%);
 	--color-bg-2: hsl(224, 44%, 95%);
-	--color-theme-1: #2ad7d7;
+  --color-title:#5948a2;
+	--color-theme-1: #5948a2;
 	--color-theme-2: #595fda;
 	--color-text: rgba(0, 0, 0, 0.7);
+  --color-text-2: white;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
@@ -18,17 +20,15 @@
 }
 
 body {
-	min-height: 100vh;
-	margin: 0;
-	background-attachment: fixed;
-	background-color: var(--color-bg-1);
-	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-			50% 50% at 50% 50%,
-			rgba(255, 255, 255, 0.75) 0%,
-			rgba(255, 255, 255, 0) 100%
-		),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  background: rgb(182, 165, 255);
+  background: radial-gradient(circle, rgba(182, 165, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background-size: 100vw 100vh;
 }
 *{
   box-sizing: border-box;
@@ -48,7 +48,7 @@ p {
 }
 
 a {
-	color: var(--color-theme-2);
+	color: var(--color-theme-1);
 	text-decoration: none;
 }
 

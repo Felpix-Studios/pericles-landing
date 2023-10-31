@@ -1,5 +1,4 @@
 <script>
-	import Header from './Header.svelte';
 	import './styles.css';
 </script>
 
@@ -9,7 +8,7 @@
 	</main>
 
 	<footer>
-		<p>Made with ❤️ by <a href="https://twitter.com/felpix_">Felpix</a></p>
+		<p>Made by <a href="https://twitter.com/felpix_">Felpix</a></p>
 	</footer>
 </div>
 
@@ -21,15 +20,17 @@
 	}
 
 	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    max-width: 64rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
 	footer {
 		display: flex;
