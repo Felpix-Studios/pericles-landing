@@ -4,14 +4,12 @@
 </script>
 
 <div class="app">
-	<Header />
-
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Made with ❤️ by <a href="https://twitter.com/felpix_">Felpix</a></p>
 	</footer>
 </div>
 
